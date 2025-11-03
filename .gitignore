@@ -1,0 +1,89 @@
+# ===============================
+# Node / Vite / TypeScript
+# ===============================
+
+# Dependencias
+node_modules/
+
+# Builds de producción
+dist/
+build/
+
+# Archivos temporales de Vite
+.vite/
+vite.config.ts.timestamp*
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage (tests)
+coverage/
+.nyc_output/
+
+# Archivos de TypeScript
+*.tsbuildinfo
+
+# ===============================
+# IDEs / Editores
+# ===============================
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ / WebStorm
+.idea/
+
+# ===============================
+# Sistemas operativos
+# ===============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===============================
+# Entornos locales / herramientas
+# ===============================
+
+.env
+.env.local
+.env.*.local
+
+# Archivos de lock opcionales (elige uno según tu gestor de paquetes)
+# Si usas npm:
+# package-lock.json
+# Si usas yarn:
+# yarn.lock
+# Si usas pnpm:
+# pnpm-lock.yaml
+
+# ===============================
+# Archivos temporales / backups
+# ===============================
+
+*.tmp
+*.swp
+*.bak
+*.log
+*.orig
+
+# ===============================
+# Archivos de testing o coverage
+# ===============================
+
+jest.config.js
+jest.config.ts
+test-results/
+playwright-report/

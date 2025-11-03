@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "types": ["vite/client"],
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
